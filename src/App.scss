@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Nato sans";
+}
+
+.header_section {
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 17px 216px;
+}
+
+.navigation {
+    display: flex;
+    gap: 40px;
+
+    a {
+        color: #56566C;
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
+
+.nav_but {
+    display: flex;
+    gap: 19px;
+}
+
+.button_first {
+    display: flex;
+    gap: 19px;
+}
+
+.but_trans {
+    font-weight: 600;
+    font-size: 18px;
+    color: #56566C;
+    background-color: transparent;
+}
+
+.but_white {
+    border: 2px solid #001E2A;
+    color: #001E2A;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 19px 54px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.second_block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 150px 216px;
+    gap: 278px;
+}
+
+.trade_platform {
+
+    h1 {
+        font-weight: 700;
+        font-size: 80px;
+        color: #000000;
+        line-height: 110px;
+        margin-bottom: 32px;
+    }
+
+    p {
+        font-weight: 500;
+        font-size: 22px;
+        color: #312E30;
+        margin-bottom: 76px;
+    }
+}
+
+.bit_but {
+    display: flex;
+    gap: 40px;
+}
+
+.but_dark_blue {
+    border-radius: 5px;
+    padding: 19px 47px;
+    background-color: #001E2A;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.button_blue {
+    border-radius: 5px;
+    padding: 19px 47px;
+    color: #001E2A;
+    background-color: #DEF3FE;
+    border: 2px solid #74CAEE;
+    font-weight: 600;
+    font-size: 18px;
+}
+
