@@ -411,7 +411,6 @@ body {
 
 .markets {
     width: 100%;
-    max-width: 1920px;
     background: linear-gradient(to right,#EEF7F9,#E9F3FD);
     margin: 0 auto;
     padding: 120px 216px;
@@ -592,4 +591,56 @@ body {
         display: flex;
         align-items: center;
     }
+}
+
+.platform {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: linear-gradient(to right,#EEF7F9,#E9F3FD);
+    margin: 0 auto;
+    padding: 120px 216px;
+    gap: 53px;
+}
+
+.platform_name {
+}
+
+.platform_text {
+
+    h3 {
+        font-weight: 700;
+        font-size: 48px;
+        color: #001E2A;
+        line-height: 54px;
+        margin-bottom: 32px;
+    }
+
+    p {
+        font-weight: 500;
+        font-size: 22px;
+        color: #001E2A;
+        margin-bottom: 76px;
+    }
+}
+
+.platform_button {
+    max-width: 203px;
+
+    button {
+        border-radius: 5px;
+        border: 2px solid #74CAEE;
+        padding: 19px 42px;
+        color: #001E2A;
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        background-color: #ffffff;
+    }
+}
+
+.platform_trade {
+    object-fit: contain;
+    object-position: center;
 }

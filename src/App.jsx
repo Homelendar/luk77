@@ -219,6 +219,24 @@ return (
 				</div>
 			</div>
 		</div>
+		<div className='platform'>
+			<div className='platform_name'>
+				<div className='platform_text'>
+					<h3>
+						A unique platform for comfortable trading from anywhere in the world
+					</h3>
+					<p>
+						COMPANY NAME is an award-winning platform that allows you to trade the world's financial markets.
+					</p>
+					<div className='platform_button'>
+						<button>
+							Start trading
+						</button>
+					</div>
+				</div>
+			</div>
+			<img className='platform_trade' src={require('./images/platform.png')} alt="" />
+		</div>
 	</div>
 );
 }
