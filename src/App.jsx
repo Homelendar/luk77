@@ -18,7 +18,7 @@ return (
 							<div className='global'>
 								<img src={require('./images/global-line.svg').default} alt="" />
 								<span>
-									En
+									EN
 								</span>
 								<img src={require('./images/Arrow.svg').default} alt="" />
 							</div>
@@ -37,7 +37,7 @@ return (
 					<div className='global'>
 						<img src={require('./images/global-line.svg').default} alt="" />
 						<span>
-							En
+							EN
 						</span>
 						<img src={require('./images/Arrow.svg').default} alt="" />
 					</div>
@@ -130,7 +130,7 @@ return (
 		</div>
 		<div className='frick'>
 			<div className='wallet'>
-				<img src={require('./images/wallet_img.png')} alt="" />
+				<img className='img_wallet' src={require('./images/wallet_img.png')} alt="" />
 				<div className='traders'>
 					<h3>
 						Pro results with pro traders
@@ -166,7 +166,7 @@ return (
 						</button>
 					</div>
 				</div>
-				<img src={require('./images/Table.png')} alt="" />
+				<img className='markets_img' src={require('./images/Table.png')} alt="" />
 			</div>
 		</div>
 		<div className="steps">
@@ -223,23 +223,25 @@ return (
 				</div>
 			</div>
 		</div>
-		<div className='platform'>
-			<div className='platform_name'>
-				<div className='platform_text'>
-					<h3>
-						A unique platform for comfortable trading from anywhere in the world
-					</h3>
-					<p>
-						COMPANY NAME is an award-winning platform that allows you to trade the world's financial markets.
-					</p>
-					<div className='platform_button'>
-						<button>
-							Start trading
-						</button>
+		<div className='platform_container'>
+			<div className='platform'>
+				<div className='platform_name'>
+					<div className='platform_text'>
+						<h3>
+							A unique platform for comfortable trading from anywhere in the world
+						</h3>
+						<p>
+							COMPANY NAME is an award-winning platform that allows you to trade the world's financial markets.
+						</p>
+						<div className='platform_button'>
+							<button>
+								Start trading
+							</button>
+						</div>
 					</div>
 				</div>
+				<img className='platform_trade' src={require('./images/platform.png')} alt="" />
 			</div>
-			<img className='platform_trade' src={require('./images/platform.png')} alt="" />
 		</div>
 		<div className='card_container'>
 			<div className='titl'>
@@ -254,10 +256,13 @@ return (
 				<div className='minimal_tabl_cards'>
 					<div className='hh_titl'>
 						<h4>
-							Beginner <span className='sp'>popular</span>
+							Beginner
 						</h4>
+						<span className='sp'>
+							popular
+						</span>
 					</div>
-					<span>
+					<span className='rete'>
 						Minimal Deposit:
 					</span>
 					<h4>
@@ -437,14 +442,12 @@ return (
 								24/7 personal support
 							</span>
 						</div>
-						<div className='card_button'>
 							<button className='button_arrow'>
 								<span>
 									Start trading
 								</span>
 								<img src={require('./images/arrow_mini.svg').default} alt="" />
 							</button>
-						</div>
 					</div>
 				</div>
 				<div className='minimal_tabl_cards'>
@@ -565,6 +568,7 @@ return (
 			</div>
 		</div>
 		<footer>
+			<div className='container'>
 				<div className='footer_contain'>
 					<div className='name_company'>
 						<img className='img_logo1' src={require('./images/Logo dark (1).svg').default} alt="" />
@@ -616,6 +620,7 @@ return (
 						Trading contracts for difference and currency pairs carries a high risk of loss due to the fact that such trading is realized through lending, which can lead to the complete loss of your capital. This type of trading is not suitable for all categories of investors. Click here for the full text of our Risk Warning and before you start trading, make sure that you understand all the risks, taking into account your experience in this area. If necessary, contact independent consultants. The information contained on this website and in the documents posted on it is of a general nature and does not take into account your personal circumstances, financial situation or needs. In order to assess whether trading in such financial assets is suitable for you, you should carefully study our Client Agreement and seek independent expert advice. COMPANY NAME is a trademark of COMPANY NAME LTD. Company Number: 26350 BC 2021 Registered Address: Suite 305, Griffith Corporate Center, Kingstown, St. Vincent and the Grenadines. COMPANY-NAME.com transactions are processed by Dotwallet OÜ. Company number: 16253252. Registration address: Harju maakond, Tallinn, Kesklinna linnaosa, Tuukri tn 19-315, 10120, Estonia. COMPANY-NAME.com © 2022 - All rights reserved.
 					</p>
 				</div>
+			</div>
 		</footer>
 	</div>
 );
