@@ -204,7 +204,7 @@ body {
     justify-content: center;
     gap: 104px;
     width: 100%;
-    margin-bottom: 60px;
+    margin-bottom: 120px;
 
     @media screen and (max-width: 1200px) {
         flex-direction: column;
@@ -325,7 +325,7 @@ body {
 }
 
 .user_badge {
-    padding: 5px 17px;
+    padding: 5px 14px;
     color: #fff;
     display: block;
 
@@ -368,7 +368,12 @@ body {
     }
 }
 
+.img_wallet {
+    max-width: 600px;
+}
+
 .traders {
+    max-width: 657px;
 
     h3 {
         color: #001E2A;
@@ -434,6 +439,8 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 87px;
+    max-width: 1640px;
+    margin: 0 auto;
 
     @media screen and (max-width:1200px) {
         flex-direction: column;
@@ -441,6 +448,10 @@ body {
         gap: 40px;
         padding: 60px 10px;
     }        
+}
+
+.markets_img {
+    max-width: 744px;
 }
 
 .block_text { 
@@ -577,6 +588,7 @@ body {
 }
 
 .steps_right {
+    max-width: 657px;
 
     h3 {
         font-weight: 700;
@@ -615,14 +627,27 @@ body {
     }
 }
 
+.platform_container {
+    width: 100%;
+    background: linear-gradient(to right,#EEF7F9,#E9F3FD);
+    margin: 0 auto;
+    padding: 120px 20px;
+    gap: 53px;
+    margin-bottom: 120px;
+
+    @media screen and (max-width:1200px) {
+        flex-direction: column;
+    }
+}
+
 .platform {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    max-width: 1640px;
     background: linear-gradient(to right,#EEF7F9,#E9F3FD);
     margin: 0 auto;
-    padding: 120px 20px;
     gap: 53px;
 
     @media (max-width: 1200px) {
@@ -639,6 +664,7 @@ body {
 }
 
 .platform_text {
+    max-width: 657px;
 
     h3 {
         font-weight: 700;
@@ -661,6 +687,16 @@ body {
 
     @media (max-width: 1200px) {
         max-width: 100%;
+    }
+
+    @media screen and (max-width:1200px) {
+        h3 {
+            font-size: 32px;
+        }
+
+        p {
+            font-size: 18px;
+        }
     }
 }
 
@@ -686,6 +722,7 @@ body {
 .platform_trade {
     object-fit: contain;
     object-position: center;
+    max-width: 778px;
 }
 
 .card_container {
@@ -695,9 +732,7 @@ body {
 }
 
 .titl {
-    text-align: center;
-    margin: 0 auto;
-    padding: 120px 20px;
+
 
     @media (max-width: 1200px) {
         display: flex;
@@ -708,7 +743,7 @@ body {
     }
 
     h3 {
-        font-weight: 700px;
+        font-weight: 700;
         font-size: 48px;
         line-height: 54px;
         color: #001E2A;
@@ -822,19 +857,24 @@ body {
         font-size: 12px;
         padding: 3px 19px;
         text-align: center;
+        margin: 0 0 ;
     }
 
 }
 
 .traficall {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: flex-start;
+    gap: 11px;
 }
 
 .tariff_title {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 auto;
 
     span {
         font-weight: 400;
@@ -847,12 +887,10 @@ body {
     display: flex;
     gap: 5px;
 
-    
     span {
         font-weight: 600;
         font-size: 16px;
         color: #302F2D;
-        margin-bottom: 11px;
     }
 
 }
@@ -921,7 +959,7 @@ body {
 
 .imput_data {
     width: 100%;
-    max-width: 1600px;
+    max-width: 1640px;
     margin: 0 auto;
     border-radius: 40px;
     background-color: #252331;
@@ -955,7 +993,10 @@ body {
 }
 
 .data_entry {
-
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+     
     input {
         display: block;
         background-color: transparent;
@@ -988,9 +1029,9 @@ body {
         color: #908ca2;
 
         &.text_pp {
-            font-size: 16px;
+            color: #A3A3A3;
             font-weight: 500;
-            color: #DCDCDC;
+            font-size: 16px;
         }
     }
 
@@ -1007,23 +1048,27 @@ body {
 
 footer {
     background-color: #080808;
-    padding: 20px 120px;
+    padding: 40px 20px;
     width: 100%;
 
     @media screen and (max-width: 1200px) {
         padding: 30px 10px;
     }
+
+    .container {
+        width: 100%;
+        max-width: 1600px;
+        margin: 0 auto;
+    }
 }
+
 
 .footer_contain {
     display: flex;
     align-items: center;
-    margin: 0 auto;
     padding-bottom: 22px;
     border-bottom: 5px solid #212121;
     gap: 133px;
-    width: 100%;
-    max-width: 1600px;
 
     @media screen and (max-width: 1200px) {
         flex-direction: column;
