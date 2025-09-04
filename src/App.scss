@@ -370,6 +370,7 @@ body {
 
 .img_wallet {
     max-width: 600px;
+    width: 100%;
 }
 
 .traders {
@@ -452,6 +453,7 @@ body {
 
 .markets_img {
     max-width: 744px;
+    width: 100%;
 }
 
 .block_text { 
@@ -535,8 +537,7 @@ body {
 
     @media screen and (max-width:1200px) {
         flex-direction: column;
-        padding: 60px 10px;
-        align-items: center;
+        padding: 60px 20px;
         gap: 40px;
     }
 }
@@ -723,6 +724,7 @@ body {
     object-fit: contain;
     object-position: center;
     max-width: 778px;
+    width: 100%;
 }
 
 .card_container {
@@ -781,7 +783,8 @@ body {
     @media (max-width: 1200px) {
         flex-direction: column;
         gap: 25px;
-        padding: 0 0 30px;
+        padding: 0 20px 30px;
+        text-align: center;
     }
 }
 
@@ -793,7 +796,8 @@ body {
     padding: 25px 23px 45px;
 
     @media (max-width: 1200px) {
-        padding: 20px 16px 28px;
+        padding: 20px 20px 28px;
+        width: 100%;
     }
 
     h4 {
@@ -876,6 +880,10 @@ body {
     align-items: center;
     justify-content: space-between;
 
+    @media (max-width: 1200px) {
+        justify-content: unset;
+    }
+
     span {
         font-weight: 400;
         font-size: 16px;
@@ -920,7 +928,7 @@ body {
     width: 100%;
     padding: 20px 120px;
 
-        @media (max-width: 1200px) {
+    @media (max-width: 1200px) {
         flex-direction: column;
         align-items: center;
         width: 100%;
@@ -1019,7 +1027,7 @@ body {
         border-radius: 5px;
         width: 100%;
         max-width: 256px;
-
+        margin-bottom: 20px;
     }
 
     p {
@@ -1032,6 +1040,9 @@ body {
             color: #A3A3A3;
             font-weight: 500;
             font-size: 16px;
+            line-height: 2;
+            text-align: center;
+            margin-top: 20px;
         }
     }
 
@@ -1044,6 +1055,11 @@ body {
     gap: 48px;
     width: 100%;
     margin-bottom: 36px;
+
+    @media (max-width: 1200px) {
+        flex-direction: column;
+        gap: 24px;
+    }    
 }
 
 footer {
